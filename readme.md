@@ -6,6 +6,16 @@ https://github.com/Rocketseat/youtube-cli-node-gluegun
 
 A CLI for react-structure-helpers. 
 
+## Instalation
+
+```
+yarn global add react-structure-helpers
+```
+or
+
+```
+npm install -g react-structure-helpers
+```
 ## Usage
 
 ## generate:pages
