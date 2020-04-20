@@ -1,0 +1,44 @@
+{
+  "name": "react-structure-helpers",
+  "version": "1.0.2",
+  "description": "react-structure-helpers CLI",
+  "bin": {
+    "rctsh": "bin/react-structure-helpers"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,json} && standard --fix",
+    "lint": "standard",
+    "test": "jest",
+    "watch": "jest --watch",
+    "snapupdate": "jest --updateSnapshot",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "readme.md",
+    "docs",
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gluegun": "latest"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "prettier": "^1.12.1",
+    "jest": "^24.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
